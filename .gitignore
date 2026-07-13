@@ -1,0 +1,65 @@
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+token.json
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / models (GeoAI)
+*.tif
+*.tiff
+*.nc
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+data/
+models/
+checkpoints/
+
+# IDE
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
