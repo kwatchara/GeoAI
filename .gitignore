@@ -63,3 +63,6 @@ Desktop.ini
 
 # Logs
 *.log
+
+# Documents (excluded from repo)
+*.pdf
